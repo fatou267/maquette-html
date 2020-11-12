@@ -1,0 +1,97 @@
+
+body, html {
+  height: 100%;
+}
+h3
+{
+  text-transform: uppercase;
+}
+.bouton
+{
+	color: white;
+}
+.color
+{
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.color1
+{
+  color: yellow;
+  font-style: italic;
+  font-weight: bold;
+   font-size: 20px;
+}
+.cont {
+    display: inline-block;
+    position: relative;
+}
+
+.cont .text {
+    z-index: 1;
+    position: absolute;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 50%;
+}
+p
+{
+	text-align: justify;
+}
+.sous-titre
+{
+	text-align: center;
+}
+.rounder
+    {
+        width: 300px;
+        margin: auto;
+    }
+    .rounder .img
+    {
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+    }
+.bgimg
+    {
+    	background-image: url("images/ctcimage.png");
+    }
+ .welcome
+ {
+    margin-left: 50%;
+    margin-right: 50%;
+   text-align: center;
+ }
+ .footer
+{
+   height: 400px;
+   position: relative;
+}
+
+.footer .footer-content
+{
+
+  height: 320px;
+  display: flex;
+}
+.footer .footer-content .footer-section
+{
+  flex:1;
+  padding: 25px;
+}
+.footer .footer-bottom
+{
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding-top: 20px;
+
+}
